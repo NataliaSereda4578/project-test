@@ -55,8 +55,8 @@ export const getUserInfo = async (token) => {
   );
 
   if (!response.ok) {
-    // removeCookies('token');
-    response.clearCookie('token');
+    removeCookies('token');
+    // response.clearCookie('token');
     throw new Error('Cant load user info!');
   }
 

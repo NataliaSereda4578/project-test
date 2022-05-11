@@ -18,7 +18,7 @@ const checkToken = (req, res, next) => {
           req.user = result;
           next();
         })
-        .catch(() => res.status(404).send('Token doest exist'));
+        .catch((err) => res.status(404).send('Token doest exist'));
     } else {
       res.status(401).send(err.message);
     }

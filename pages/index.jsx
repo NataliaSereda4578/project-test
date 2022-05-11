@@ -12,10 +12,10 @@ export const getServerSideProps = async ({ req, res }) => {
     try {
       user = await getUserInfo(req.cookies.token);
     } catch (err) {
-      return { redirect: { destination: '/login', permanent: false } };
+      res.redirect('/login');
     }
   } else {
-    return { redirect: { destination: '/login', permanent: false } };
+    res.redirect('/login');
   }
 
   return { props: { user: user ? JSON.stringify(user) : null } };

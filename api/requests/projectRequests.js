@@ -6,6 +6,9 @@ export const saveProject = async ({ name, image }) => {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
+        // 'Access-Control-Allow-Origin': 'http://localhost:8080',
+        'Access-Conrol-Allow-Origin':
+          'https://project-test-case.herokuapp.com/',
       },
       body: JSON.stringify({ name, image }),
     }
