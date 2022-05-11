@@ -10,7 +10,7 @@ import { switchStyles } from './components/switch';
 import { MainPanelComponent } from './additions/layout/MainPanel';
 import { PanelContentComponent } from './additions/layout/PanelContent';
 import { PanelContainerComponent } from './additions/layout/PanelContainer';
-import { SidebarComponent } from './components/Sidebar';
+import { SidebarComponent } from './components/sidebar';
 import { Text } from './components/text';
 import { CardComponent } from './components/card';
 
