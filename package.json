@@ -1,0 +1,47 @@
+{
+  "name": "mercen-test-case",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@fontsource/roboto": "^4.5.5",
+    "cookie-parser": "^1.4.6",
+    "cookies-next": "^2.0.4",
+    "express": "^4.18.1",
+    "framer-motion": "^6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "next": "11.1.0",
+    "react": "17.0.2",
+    "react-avatar-image-cropper": "^1.4.2",
+    "react-cropper": "^2.1.8",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-image-crop": "^10.0.0",
+    "@types/react": "^17.0.36",
+    "@types/react-dom": "^17.0.11"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.45",
+    "@next/eslint-plugin-next": "^12.1.6",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.6.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
