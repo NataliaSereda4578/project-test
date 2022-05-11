@@ -32,10 +32,10 @@ export const getServerSideProps = async ({ req, res, params }) => {
     try {
       user = await getUserInfo(req.cookies.token);
     } catch (err) {
-      res.redirect('/login');
+      return { redirect: { destination: '/login', permanent: false } };
     }
   } else {
-    res.redirect('/login');
+    return { redirect: { destination: '/login', permanent: false } };
   }
   const project = await getProjectById(
     { ...params, token: req.cookies?.token },
