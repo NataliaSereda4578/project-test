@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node server",
+    "start": "export NODE_ENV=dev && node server",
     "lint": "next lint"
   },
   "dependencies": {
