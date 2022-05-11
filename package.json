@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server",
+    "start": "node server",
     "lint": "next lint"
   },
   "dependencies": {
